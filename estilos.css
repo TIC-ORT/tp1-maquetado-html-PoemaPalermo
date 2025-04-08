@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100vw;
+    height: 15vh;
+    background-color: cyan;
+}
+.nav{
+    width: 100vw;
+    height: 25vh;
+    background-color: lightblue;
+}
+.main{
+    width: 100vw;
+    height: 50vh;
+    background-color: lightgray;
+}
+.footer{
+    width: 100vw;
+    height: 10vh;
+    background-color: gray;
+}
