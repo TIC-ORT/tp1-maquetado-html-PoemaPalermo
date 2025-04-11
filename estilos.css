@@ -5,18 +5,32 @@
 }
 .header{
     width: 100vw;
-    height: 15vh;
+    height: 25vh;
     background-color: cyan;
 }
 .nav{
     width: 100vw;
-    height: 25vh;
+    height: 15vh;
     background-color: lightblue;
 }
 .main{
     width: 100vw;
     height: 50vh;
-    background-color: lightgray;
+    background-color: white;
+}
+.main .article{
+    width: 25vw;
+    height: 40vh;
+    display: block;
+}
+.main .article .figure{
+    background-color: aqua;
+}
+.main .article .titulo{
+    background-color:dimgray
+}
+.main .article .texto{
+    background-color: lightslategray;
 }
 .footer{
     width: 100vw;
