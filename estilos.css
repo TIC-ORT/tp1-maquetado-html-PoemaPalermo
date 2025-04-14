@@ -10,18 +10,25 @@
 }
 .nav{
     width: 100vw;
-    height: 15vh;
+    height: 12vh;
     background-color: lightblue;
 }
 .main{
     width: 100vw;
-    height: 50vh;
+    height: 53vh;
     background-color: white;
 }
+.main .div{
+    display: flex;
+}
+.articulo{
+    margin: 20vw;
+}
 .main .article{
-    width: 25vw;
-    height: 40vh;
+    width: 30%;
+    height: 40%;
     display: block;
+    margin: 20%;
 }
 .main .article .figure{
     background-color: aqua;
