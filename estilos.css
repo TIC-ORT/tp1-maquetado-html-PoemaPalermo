@@ -11,7 +11,7 @@
 .nav{
     width: 100vw;
     height: 12vh;
-    background-color: lightblue;
+    background-color: #777777;
 }
 .main{
     width: 100vw;
@@ -25,8 +25,8 @@
     margin: 20vw;
 }
 .main .article{
-    width: 30%;
-    height: 40%;
+    width: 33vw;
+    height: 50vh;
     display: block;
     margin: 20%;
 }
@@ -42,5 +42,24 @@
 .footer{
     width: 100vw;
     height: 10vh;
-    background-color: gray;
+    background-color: #313131;
+    display: flex;
+}
+.footer .p1{
+    background-color: #707070;
+    width: 30%;
+    height: 20%;
+    height: 20%;
+    margin-top: 1.75%;
+    margin-bottom: 1.75%;
+    margin-right: 20%;
+    margin-left: 10%;
+}
+.footer .p2{
+    background-color: #707070;
+    width: 10%;
+    height: 20%;
+    margin-top: 1.75%;
+    margin-bottom: 1.75%;
+    margin-right: 2%;
 }
